@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap");
+
+:root {
+  --primary: #396dff;
+  --primary--dim: #6987db;
+  --darkgrey: #d4d4d4;
+  --grey: #f7f7f7;
+  --white: #fff;
+
+  --xs: 4px;
+  --s: 8px;
+  --m: 16px;
+  --l: 24px;
+}
+
+body {
+  margin: 0; /* 清除页面的默认外边距 */
+  padding: 0; /* 清除页面的默认内边距 */
+  font-family: "MaShanZheng"; /* 设置页面使用 "MaShanZheng" 字体和 sans-serif 作为备用字体 */
+  font-weight: 300; /* 设置字体的粗细为 300，通常表示轻字体 */
+}
+
+form {
+  flex-grow: 1; /* 设置form元素在其父容器中拉伸，占据可用空间的全部剩余部分 */
+}
+.u-bold {
+  font-weight: 600;
+}
